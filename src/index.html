@@ -6,9 +6,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <header><h1 id="title">Cifra de Cézar</h1> </header>
+
+
+    <section><!--Inicio Caixa de texto-->
+        <div id="text-box">
+            <div>
+                <p class="texts">Digite seu texto aqui:</p>
+                <textarea id="box1"></textarea>
+            </div>
+
+        </div>
+    </section><!--Fim Caixa de texto-->
+
+
+    <section><!--Inicio Caixa de botões -->
+        <div id="code-box">
+            <div>
+                <p class="texts"> Escolha o numero da chave:</p>
+                <input id="rolagem"  type='number' name='shift' value='5' min='1' max='26'>
+                 
+                </select>
+                <input  id="button1" class="button1"  type="submit" value="Codificar">
+                <input id="button2" type="submit" value="Desodificar">
+            </div>
+
+        </div>
+
+    </section><!--Fim Caixa de botões-->
+    
+
+
+    <section><!--Inicio Caixa de Texto Codificado-->
+        <div id="result-box">
+            <div>
+                <p class="texts"> Seu texto Codificado:</p>
+                <textarea id="box2"  ></textarea>
+                
+            </div>
+
+        </div>
+
+    </section><!--fim Caixa de texto Codificado-->
+
+    <section>
+        <div id="safe-text">
+            <h1 >Precisa passar alguma informação para alguem mas não acha que o site ou plataforma é seguro? Não quer que coletem dados através de suas mensagens?
+                Mande mensagens criptografadas e se sinta mais seguro!</h1>
+        </div>
+    </section>
+
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
