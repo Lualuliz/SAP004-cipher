@@ -19,10 +19,17 @@ const cipher = {
   
 },
 
+decode:(string,offset) => {
+  let result = "";
+  offset = (26 - offset) % 26;
+  result = encode(string,offset);
+  return result;
 
+
+},
 }
 
 
 
 
-export default cipher
+export default cipher;
