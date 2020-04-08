@@ -3,43 +3,38 @@ body{
      background: linear-gradient(to top right, #33ccff 29%, #ff99cc 100%);
  }
  
- 
- 
- 
  /********** Layout*******/
  
  
  #title {
      text-align: center;
      text-decoration-color: black;
-     font-family:sans-serif;
+     font-family:'Orbitron', sans-serif;
      color: #fff;
      font-size: 4.1em;
      text-shadow: 2px 2px #900C3F;
  
  }
  
- 
- 
  #safe-text{
      text-align: center;
      text-decoration-color: black;
-     font-family:sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: #fff;
+     font-size: 14px;
      position: absolute;
-     top:70%;
-     
- 
+     top:70%; 
  }
  
- #text-box{
-     position: absolute;
-     top: 30% ;
-     left:15% ;
-     bottom: 30%;
-     margin: 10px;
-     padding: 20px;
-     width: 200px;
+ #text-box {
+    position: absolute;
+    top: 30% ;
+    left:15% ;
+    bottom: 30%;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    
      
  }
  
@@ -62,17 +57,23 @@ body{
      margin: 10px;
      padding: 20px;
      width: 200px;
+    
  }
+
+
  
  /*******************Botões e areas de texto **********/
  .texts{
      color: #581845;
-     font-family: sans-serif;
+     font-family: 'Gugi', cursive;
      text-align: center;
       font-size: 1.2em;
  }
+
+
  
- #text-space{
+ 
+ .text-space{
      text-align: match-parent ;
      padding: 20px;
      margin:auto;
@@ -80,22 +81,23 @@ body{
      resize: none;
      overflow: hidden;
      height: 90px;
+     box-shadow:4px 4px #900C3F;
+    
  
  }
- 
- 
- 
  #button1{
      width: 80px;
      color: #fff;
      background-color: #581845;
      border-radius: 10%;
-     border:1px solid #50E8C3;
+     border:1px solid black;
      padding: 4px;
      margin: 5px;
      position: absolute;
      right:20% ;
      bottom: 40%;
+     box-shadow:2px 2px  black;
+    
  
  }
  
@@ -104,19 +106,21 @@ body{
      color: #fff;
      background-color: #581845;
      border-radius: 10%;
-     border:1px solid #50E8C3;
+     border:1px solid black;
      padding: 4px;
      margin: 5px;
      position: absolute;
      right:20% ;
      bottom: 15%;
+     box-shadow:2px 2px black;
+    
      
  }
  
  #rolagem{
      width: 30px;
      border-radius: 10%;
-     border:1px solid #50E8C3;
+     border:1px solid black;
      padding: 4px;
      margin: 5px;
      background-color:#581845 ;
@@ -124,7 +128,5 @@ body{
      position: absolute;
      right:60% ;
      bottom: 28%;
-     
-     
- 
+     box-shadow:2px 2px black;
  }
