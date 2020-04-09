@@ -12,20 +12,31 @@ body{
      font-family:'Orbitron', sans-serif;
      color: #fff;
      font-size: 4.1em;
-     text-shadow: 2px 2px #900C3F;
+     text-shadow: 2px 2px 5px #900C3F;
  
  }
- 
+
+ #image{
+     width:100px ;
+     opacity:40% ;
+     padding: 5px 5px;
+
+
+ }
+
  #safe-text{
      text-align: center;
-     text-decoration-color: black;
+     text-shadow: 2px 2px 5px black;
      font-family: 'Roboto', sans-serif;
      color: #fff;
      font-size: 14px;
+     padding: 2px;
      position: absolute;
-     top:70%; 
+     top:75%; 
  }
- 
+
+ /********** Caixas de texto*******/
+  
  #text-box {
     position: absolute;
     top: 30% ;
@@ -117,7 +128,7 @@ body{
      
  }
  
- #rolagem{
+ #roll{
      width: 30px;
      border-radius: 10%;
      border:1px solid black;

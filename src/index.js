@@ -2,14 +2,12 @@ import cipher from './cipher.js';
 
 let button1 = document.getElementById("button1");
 
-
-
 function text() {
   
 
   let firstText = document.getElementById("box1").value;
   
-  let key = document.getElementById('rolagem').value;
+  let key = document.getElementById('roll').valueAsNumber;
 
   let secondText = document.getElementById("box2");
 
@@ -18,8 +16,7 @@ function text() {
 
   let encodeMessage = cipher.encode(key,message);
 
- secondText.value = encodeMessage
-;
+ secondText.value = encodeMessage;
 
 };
 
@@ -29,22 +26,19 @@ function text2(){
 
   let firstText = document.getElementById("box1").value;
   
-  let key = document.getElementById('rolagem').value;
+  let key = document.getElementById('roll').value;
 
   let secondText = document.getElementById("box2");
 
   let message = secondText.value = firstText;
 
 
-  let encodeMessage = cipher.decode(key,message);
+  let decodeMessage = cipher.decode(key,message);
 
- secondText.value = encodeMessage
-
-
-}
+ secondText.value = decodeMessage
 
 
-  
+};
 
 
 button1.addEventListener("click",text);
