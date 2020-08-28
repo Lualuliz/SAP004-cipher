@@ -1,5 +1,5 @@
 # Ceaser Cipher
- ![secret](https://user-images.githubusercontent.com/57915141/91581324-b13ed180-e924-11ea-9b25-6cbcdd32608c.png){:height="36px" width="36px"}
+ <div style="width:50%">![secret](https://user-images.githubusercontent.com/57915141/91581324-b13ed180-e924-11ea-9b25-6cbcdd32608c.png)</div>
  
 # Índice
 1. O que é o Ceasar Cipher?
