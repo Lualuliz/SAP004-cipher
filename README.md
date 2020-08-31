@@ -1,5 +1,5 @@
 # Ceaser Cipher
- ![image](./images/secret.png)
+ ![image](SAP004-cipher/src/images/secret.png)
  
 # Índice
 1. O que é o Ceasar Cipher?
