@@ -1,63 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header><h1 id="title"> <img id="image" src="images\secret.png"> Ceasar Cipher  </h1> </header>
-
-
-    <section><!--Inicio Caixa de texto-->
-        <div id="text-box">
-            <div>
-                <p class="texts">Digite seu texto aqui:</p>
-                <textarea class="text-space" id="box1"></textarea>
-            </div>
-
-        </div>
-    </section><!--Fim Caixa de texto-->
-
-
-    <section><!--Inicio Caixa de botões -->
-        <div id="code-box">
-            <div>
-                <p class="texts"> Escolha o numero da chave:</p>
-                <input id="roll"  type="number" name="shift" value="1" min="1" max="25">
-                 
-            
-                <input  id="button1" class="button1"  type="submit" value="Codificar">
-                <input id="button2" type="submit" value="Desodificar">
-            </div>
-
-        </div>
-
-    </section><!--Fim Caixa de botões-->
-    
-
-
-    <section><!--Inicio Caixa de Texto Codificado-->
-        <div id="result-box">
-            <div>
-                <p class="texts"> O resultado:</p>
-                <textarea class="text-space" id="box2"  ></textarea>
-                
-            </div>
-
-        </div>
-
-    </section><!--fim Caixa de texto Codificado-->
+    <header>
+      <h1 class="title">
+        <img class="image" src="images\secret.png" /> Ceasar Cipher
+      </h1>
+    </header>
 
     <section>
-        <div id="safe-text">
-            <h1 >Precisa passar alguma informação para alguem mas não acha que o site ou plataforma é seguro?
-                 Não quer que coletem dados através de suas mensagens?
-                Mande mensagens criptografadas e se sinta mais seguro!</h1>
-        </div>
+      <div class="text-box">
+        <p class="texts">Digite seu texto aqui:</p>
+        <textarea class="text-space" class="box1"></textarea>
+      </div>
     </section>
 
-    
+    <section>
+      <div class="code-box">
+        <p class="texts">Escolha o numero da chave:</p>
+        <input
+          id="roll"
+          type="number"
+          name="shift"
+          value="1"
+          min="1"
+          max="25"
+        />
+
+        <input id="button1" class="button1" type="submit" value="Codificar" />
+        <input class="button2" type="submit" value="Desodificar" />
+      </div>
+    </section>
+
+    <section>
+      <div class="result-box">
+        <p class="texts">O resultado:</p>
+        <textarea class="text-space" id="box2"></textarea>
+      </div>
+    </section>
+
+    <section>
+      <div class="safe-text">
+        <h1>
+          Precisa passar alguma informação para alguem mas não acha que o site
+          ou plataforma é seguro? Não quer que coletem dados através de suas
+          mensagens? Mande mensagens criptografadas e se sinta mais seguro!
+        </h1>
+      </div>
+    </section>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
