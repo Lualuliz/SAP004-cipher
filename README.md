@@ -1,5 +1,5 @@
 # Ceaser Cipher
- ![image](SAP004-cipher/src/images/secret.png)
+![](https://user-images.githubusercontent.com/57915141/92011490-81773b80-ed21-11ea-9836-9d517a61dc28.png)
  
 # Índice
 1. O que é o Ceasar Cipher?
