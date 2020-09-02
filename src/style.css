@@ -1,143 +1,120 @@
-body{
-    height: 605px;
-     background: linear-gradient(to top right, #33ccff 29%, #ff99cc 100%);
- }
- 
- /********** Layout*******/
- 
- 
- #title {
-     text-align: center;
-     text-decoration-color: black;
-     font-family:'Orbitron', sans-serif;
-     color: #fff;
-     font-size: 4.1em;
-     text-shadow: 2px 2px 5px #900C3F;
- 
- }
+body {
+  height: 515px;
+  background: linear-gradient(to top right, #33ccff 29%, #ff99cc 100%);
+}
 
- #image{
-     width:100px ;
-     opacity:40% ;
-     padding: 5px 5px;
+.title {
+  text-align: center;
+  text-decoration-color: black;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  font-size: 4.1em;
+  text-shadow: 2px 2px 5px #900c3f;
+}
 
+.image {
+  width: 100px;
+  opacity: 40%;
+  padding: 5px 5px;
+}
 
- }
+.safe-text {
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px;
+  position: absolute;
+  top: 75%;
+}
 
- #safe-text{
-     text-align: center;
-     text-shadow: 2px 2px 5px black;
-     font-family: 'Roboto', sans-serif;
-     color: #fff;
-     font-size: 14px;
-     padding: 2px;
-     position: absolute;
-     top:75%; 
- }
+.text-box {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  bottom: 30%;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
 
- /********** Caixas de texto*******/
-  
- #text-box {
-    position: absolute;
-    top: 30% ;
-    left:15% ;
-    bottom: 30%;
-    margin: 10px;
-    padding: 20px;
-    width: 200px;
-    
-     
- }
- 
- #code-box{
-    
-     position: absolute;
-     top: 30% ;
-     right:40% ;
-     bottom: 30%;
-     margin: 10px;
-     padding: 20px;
-     width: 200px;
- }
- 
- #result-box{
-     position: absolute;
-     top: 30% ;
-     right:15% ;
-     bottom: 30%;
-     margin: 10px;
-     padding: 20px;
-     width: 200px;
-    
- }
+.code-box {
+  position: absolute;
+  top: 30%;
+  right: 40%;
+  bottom: 30%;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
 
+.result-box {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  bottom: 30%;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
 
- 
- /*******************Botões e areas de texto **********/
- .texts{
-     color: #581845;
-     font-family: 'Gugi', cursive;
-     text-align: center;
-      font-size: 1.2em;
- }
+.texts {
+  color: #581845;
+  font-family: "Gugi", cursive;
+  text-align: center;
+  font-size: 1.2em;
+}
 
+.text-space {
+  text-align: match-parent;
+  padding: 20px;
+  margin: auto;
+  width: auto;
+  resize: none;
+  overflow: hidden;
+  height: 90px;
+  box-shadow: 4px 4px #900c3f;
+}
 
- 
- 
- .text-space{
-     text-align: match-parent ;
-     padding: 20px;
-     margin:auto;
-     width: auto;
-     resize: none;
-     overflow: hidden;
-     height: 90px;
-     box-shadow:4px 4px #900C3F;
-    
- 
- }
- #button1{
-     width: 80px;
-     color: #fff;
-     background-color: #581845;
-     border-radius: 10%;
-     border:1px solid black;
-     padding: 4px;
-     margin: 5px;
-     position: absolute;
-     right:20% ;
-     bottom: 40%;
-     box-shadow:2px 2px  black;
-    
- 
- }
- 
- #button2{
-     width: 80px;
-     color: #fff;
-     background-color: #581845;
-     border-radius: 10%;
-     border:1px solid black;
-     padding: 4px;
-     margin: 5px;
-     position: absolute;
-     right:20% ;
-     bottom: 15%;
-     box-shadow:2px 2px black;
-    
-     
- }
- 
- #roll{
-     width: 30px;
-     border-radius: 10%;
-     border:1px solid black;
-     padding: 4px;
-     margin: 5px;
-     background-color:#581845 ;
-     color: #fff;
-     position: absolute;
-     right:60% ;
-     bottom: 28%;
-     box-shadow:2px 2px black;
- }
+#button1 {
+  width: 80px;
+  color: #fff;
+  background-color: #581845;
+  border-radius: 10%;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 5px;
+  position: absolute;
+  right: 20%;
+  bottom: 40%;
+  box-shadow: 2px 2px black;
+}
+
+#button2 {
+  width: 80px;
+  color: #fff;
+  background-color: #581845;
+  border-radius: 10%;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 5px;
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+  box-shadow: 2px 2px black;
+}
+
+#roll {
+  width: 30px;
+  border-radius: 10%;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 5px;
+  background-color: #581845;
+  color: #fff;
+  position: absolute;
+  right: 60%;
+  bottom: 28%;
+  box-shadow: 2px 2px black;
+}
